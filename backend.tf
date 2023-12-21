@@ -1,10 +1,10 @@
 terraform {
     backend "remote" {
         hostname = "app.terraform.io"
-        organization = "<your_org>"
+        organization = "tfpractice1"
 
         workspaces {
-            name = "<your_workspace>"
+            name = "gcp-policies"
         }
     }
 }
